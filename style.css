@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(102.2deg, rgb(250, 45, 66) 9.6%, rgb(245, 104, 104) 96.1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+
+header{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name1,.name2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+input{
+    width: 30vh;
+    height: 7vh;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+
+}
+
+.button button{
+    width: 20vh;
+    height: 7vh;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+}
+.emoji{
+    font-size: 2.5rem;
+}
+.percent{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.h1{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 510px) {
+    header{
+        font-size: 3rem;
+    }
+    .name1 h1{
+        font-size: 1.3rem;
+    }
+    .name2 h1{
+        font-size: 1.3rem;
+    }
+    input{
+        width: 25vh;
+        height: 6vh;
+    }
+    .button button{
+        height: 6vh;
+    }
+    .h1 h1{
+        font-size: 1.3rem;
+    }
+  
+}
